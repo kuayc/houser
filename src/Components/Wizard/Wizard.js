@@ -6,7 +6,7 @@ export default class Wizard extends Component {
   render() {
     return (
       <section className="wizard-new-list">
-        <h1>Add New Listing</h1>
+        <h1>Add New House</h1>
         <button onClick={this.clearReduxState}>Cancel</button>
       </section>
     );
