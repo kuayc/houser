@@ -3,6 +3,6 @@
     display: flex;
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
-    background-color: whitesmoke
+    background-color: whitesmoke;
     max-width: 100vw;
 }
