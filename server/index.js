@@ -1,10 +1,12 @@
 require("dotenv").config();
+
 const express = require("express");
 const app = express();
 const massive = require("massive");
 const { SERVER_PORT, CONNECTION_STRING } = process.env;
 const { getHouses, addToHouses } = require("./controller");
 
+// massive
 massive(CONNECTION_STRING).then((dbInstance) => {
   app.set("db", dbInstance);
   console.log("db connected");
