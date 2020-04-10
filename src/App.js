@@ -2,8 +2,6 @@ import React from "react";
 import routes from "./routes";
 import "./reset.css";
 import "./App.css";
-
-//components
 import Header from "./Components/Header/Header";
 
 function App() {
