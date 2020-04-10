@@ -1,0 +1,37 @@
+.step-1-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  height: 80vh;
+}
+
+.step-1-info {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 80%;
+  justify-content: space-evenly;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.step-1-buttons {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.next-button-1 {
+  border: none;
+  height: 4vh;
+  width: 12vw;
+  background: rgb(133, 120, 120);
+  color: whitesmoke;
+  cursor: pointer;
+}
