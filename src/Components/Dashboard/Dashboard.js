@@ -50,7 +50,7 @@ export default class Dashboard extends Component {
               />
             ))
           ) : (
-            <p>No houses to display</p>
+            <p>No houses</p>
           )}
         </section>
       </div>
